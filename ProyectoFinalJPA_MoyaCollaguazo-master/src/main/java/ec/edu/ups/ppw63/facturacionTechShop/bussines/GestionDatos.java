@@ -60,7 +60,6 @@ System.out.println("iniciando");
 		cliente2.setContrasenia("Collaguazo123");
 		
 		daoCliente.insert(cliente2);
-		
 		Direcciones direcciones = new Direcciones();
 		direcciones.setNombrePais("Ecuador");
 		direcciones.setNombreCiudad("Cuenca");
