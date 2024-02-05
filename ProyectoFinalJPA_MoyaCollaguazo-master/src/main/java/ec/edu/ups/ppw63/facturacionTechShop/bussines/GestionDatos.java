@@ -50,7 +50,6 @@ System.out.println("iniciando");
 		cliente.setPrimerApellido("Collaguazo");
 		cliente.setCorreo("collaguazodaniel48@gmail.com");
 		cliente.setContrasenia("Collaguazo123");
-		
 		daoCliente.insert(cliente);
 		
 		Cliente cliente2 = new Cliente();
